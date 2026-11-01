@@ -1,0 +1,15 @@
+{
+  "name": "servidor-sincronizacion",
+  "version": "1.0.0",
+  "description": "Servidor de sincronización para la app offline-first de avances de obra",
+  "type": "module",
+  "main": "src/servidor.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
